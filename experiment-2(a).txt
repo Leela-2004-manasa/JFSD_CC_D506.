@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Block level elements</title>
+</head>
+<body>
+    <p>asdfghj</p>
+    <div>
+    <h1>Qrtyuijhgf</h1>
+    <h2>cloud computing</h2>
+    <h3>Btech Cse</h3>
+    </div>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias sapiente libero modi ullam dolorum facilis.<span><i>Ad quia nihil sunt deserunt corrupti magni</i></span>laboriosam! Harum corporis, sit atque odit vitae nobis.
+    </p>
+
+
+    <b>Sai</b>
+    <i>sampara</i>
+    <u>qwetryuijh</u>
+    <li>chess
+    </li>
+    <li>bike</li>
+   <div>
+        <p style="color:black ; font-size: 35px;">Asdfghjqsxcvbjuygobdhjkh</p>
+</div>
+    <style>
+       *{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-style:normal;
+        color: blueviolet;
+        background-color:beige;
+       }
+       h1{
+        color:white;
+        font-size: 35px;
+        font-style:initial;
+        background-color:brown;
+       }
+
+        
+
+
+    </style>
+
+
+
+
+</body>
+</html>
