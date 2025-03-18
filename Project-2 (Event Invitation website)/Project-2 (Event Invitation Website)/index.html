@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>You're Invited!</h1>
+        <p>Join us for an amazing event!</p>
+        <p><strong>Date:</strong> October 25, 2023</p>
+        <p><strong>Time:</strong> 6:00 PM</p>
+        <p><strong>Location:</strong> 123 Event St, City, Country</p>
+
+        <h2>RSVP</h2>
+        <form action="rsvp" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" max="10" required>
+
+            <button type="submit">Submit RSVP</button>
+        </form>
+    </div>
+</body>
+</html>
