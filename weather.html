@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Alliance weather Finder</h1>
+    <div id="city"></div>
+    <div id="temp"></div>
+    <script>
+        fetch("https://api.openweathermap.org/data/2.5/weather?q=bengaluru&appid=7f4015dbd77919192fee8bfbf7a2c3a3")
+        .then(response => response.json())
+        .then(data => display(data));
+ 
+        function display(data){
+            const city =document.getElementById('city');    
+            city.textContent = data.name;
+            console.log(data.main.temp);
+            const temp = document.getElementById('temp');
+            temp.textContent = data.main.temp;  
+        }
+ 
+    </script>
+   
+</body>
+</html>
